@@ -22,31 +22,21 @@ a.nostyle:visited {
     color: inherit;
 }
 
-/*
 .head-box {
     width: 100%;
     background-color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 2px solid #cccccc;
     height: 76px;
-    padding: 0px 150px 0px 150px;
-}
-*/
-.head-box {
-    width: 100%;
-    background-color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 2px solid #cccccc;
-    height: 76px;
-    margin: 0 auto 0 auto;
 }
 
 .wrapper {
     width: 960px;
+    height: 76px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
     margin: 0 auto 0 auto;
 }
-
-/*end of testing */
 
 #profile-image {
     float: left;
@@ -298,4 +288,70 @@ ul {
 #port-image-5-label {
     position: absolute;
     bottom:15px;
+}
+
+@media screen and (max-width: 640px) {
+    .name {
+        width: 100%;
+        text-align: center
+    }
+
+    ul {
+        width: 100%;
+        text-align: center;
+        background-color: #ffffff
+    }
+
+    #li-about {
+        margin: 10px 0px;
+        width: 33.3%;
+        border: none;
+    }
+
+    #li-port {
+        margin: 10px 0px;
+        width: 33.3%;
+        border: none;
+    }
+    
+    #li-contact {
+        margin: 10px 0px;
+        width: 33.3%;
+    }
+
+    .main {
+        margin-top: 60px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .wrapper {
+        width: 650px;
+    }
+
+    .container {
+        width: 650px;
+    }
+    
+    .sidebar {
+        width: 650px;
+        float: left;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    .head-3 {
+        text-align: left;
+    }
+
+    .side-images {
+        text-align: left;
+    }
+    
+}
+
+@media screen and (max-width: 980px) {
+    
 }
