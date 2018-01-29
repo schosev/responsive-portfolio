@@ -231,8 +231,8 @@ ul {
     margin-top: 20px;
 }
 
-.port-div:nth-child(even) {
-    margin-left: 40px;
+.port-div:nth-child(odd) {
+    margin-right: 40px;
   }
 
 @media screen and (max-width: 640px) {
