@@ -271,17 +271,14 @@ ul {
     }
 
     .wrapper {
-        /*width: 620px;*/
         max-width: 620px;
     }
 
     .container {
-        /*width: 620px;*/
         max-width: 620px;
     }
     
     .sidebar {
-        /*width: 620px;*/
         max-width: 620px;
         width: 100%;
     }
